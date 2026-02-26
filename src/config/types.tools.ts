@@ -475,7 +475,7 @@ export type ToolsConfig = {
         model?: string;
       };
     };
-    /** X (Twitter) search tool configuration using xAI Grok. */
+    /** X (formerly Twitter) search tool configuration using xAI Grok. */
     x_search?: {
       /** Enable X search tool (default: true when XAI_API_KEY is present). */
       enabled?: boolean;

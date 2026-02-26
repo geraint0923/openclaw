@@ -1,11 +1,11 @@
 ---
-summary: "Web search + fetch tools (Brave Search API, Perplexity direct/OpenRouter, Gemini Google Search grounding, xAI Grok, X/Twitter search)"
+summary: "Web search + fetch tools (Brave Search API, Perplexity direct/OpenRouter, Gemini Google Search grounding, xAI Grok, X (formerly Twitter) search)"
 read_when:
   - You want to enable web_search, web_fetch, or x_search
   - You need Brave Search API key setup
   - You want to use Perplexity Sonar for web search
   - You want to use Gemini with Google Search grounding
-  - You want to use xAI Grok for web search or X/Twitter search
+  - You want to use xAI Grok for web search or X (formerly Twitter) search
 title: "Web Tools"
 ---
 
@@ -15,7 +15,7 @@ OpenClaw ships three lightweight web tools:
 
 - `web_search` — Search the web via Brave Search API (default), Perplexity Sonar, Gemini with Google Search grounding, or xAI Grok.
 - `web_fetch` — HTTP fetch + readable extraction (HTML → markdown/text).
-- `x_search` — Search X (Twitter) posts via xAI Grok.
+- `x_search` — Search X (formerly Twitter) posts via xAI Grok.
 
 These are **not** browser automation. For JS-heavy sites or logins, use the
 [Browser tool](/tools/browser).
@@ -27,7 +27,7 @@ These are **not** browser automation. For JS-heavy sites or logins, use the
   - **Perplexity**: returns AI-synthesized answers with citations from real-time web search.
   - **Gemini**: returns AI-synthesized answers grounded in Google Search with citations.
   - **Grok**: returns AI-synthesized answers with citations via xAI's Grok model.
-- `x_search` queries X (Twitter) posts via xAI Grok and returns AI-synthesized answers with citations.
+- `x_search` queries X (formerly Twitter) posts via xAI Grok and returns AI-synthesized answers with citations.
 - Results are cached by query for 15 minutes (configurable).
 - `web_fetch` does a plain HTTP GET and extracts readable content
   (HTML → markdown/text). It does **not** execute JavaScript.
@@ -356,7 +356,7 @@ Notes:
 
 ## x_search
 
-Search X (Twitter) posts using xAI Grok. Returns AI-synthesized answers with citations from real-time X post search.
+Search X (formerly Twitter) posts using xAI Grok. Returns AI-synthesized answers with citations from real-time X post search.
 
 ### x_search requirements
 
